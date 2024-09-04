@@ -1257,15 +1257,14 @@ body {
 
     .banner_conteiner_foto_myburger {
         width: 100%;
-        object-fit: cover;
-        object-position: center;
+        height:15.5dvh;
         display: flex;
-        align-items: center;
-        align-self: center;
-        align-content: center;
-        border-radius: 0px 10px 10px 0px;
         
-    }
+        object-fit: cover;
+        bottom: 10px;
+        border-radius: 0px 10px 10px 0px;
+        }
+
     .div_foto_myburguer {
     width: 33%;
     display: flex ;  
@@ -1273,19 +1272,19 @@ body {
     object-fit: cover;
     object-position: center;
 }
-    .banner_conteiner_master {
-        width: 100%;
-        min-height: 16dvh;
-        max-height: 30px;
-        border-radius: 0px;
-        background-color: none;
-        margin: 0px;
-        align-self: start;
-        align-items: start;
-        justify-content: space-between;
-        display: flex;
+.banner_conteiner_master {
+    width: 100%;
+    min-height: 16dvh;
+    max-height: 30px;
+    border-radius: 0px;
+    background-color: none;
+    margin: 0px;
+    align-self: start;
+    align-items: start;
+    justify-content: space-between;
+    display: flex;
 
-    }
+}
 
 
     .banner_conteiner_myburger {
